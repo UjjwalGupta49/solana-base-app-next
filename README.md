@@ -26,6 +26,13 @@ such as:
 ![solana-base-app next](https://user-images.githubusercontent.com/83765858/154124883-aa1cf6c0-f4fe-4223-be41-1cb0089e8eb4.png)
 ![next-image](https://user-images.githubusercontent.com/83765858/154124901-2e6263fa-0f44-47df-bf0e-ce000386eb38.png)
 
+![ui_rework1](https://user-images.githubusercontent.com/83765858/151718221-eeccc836-4038-43a3-9ee6-686a9c41594c.png)
+
+![03-02-2022 community update](https://user-images.githubusercontent.com/83765858/152333261-6fa6f542-1efb-47b2-beed-9b76c3dfc8b3.png)
+
+![image](https://user-images.githubusercontent.com/83765858/157628010-db841218-acfc-4d88-a32b-657a27f7524d.png)
+
+
 -----------
 
 ### For more information refer to the [orignal documentation](https://github.com/UjjwalGupta49/solana-base-app)
