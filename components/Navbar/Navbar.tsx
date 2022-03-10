@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC, useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -6,11 +6,12 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Typography from '@mui/material/Typography';
-import { useWallet } from '@solana/wallet-adapter-react';
 import { Airdrop } from '../Airdrop/Airdrop';
 import { GetBalance } from '../GetBalance/GetBalance';
+import { SolPayments  } from '../MerchantIntegration/main'
+import { SendTransaction } from '../Transaction/transaction'
 import { Content } from '../WalletConnection/WalletConnection';
-import styles from './Navbar.module.css';
+import './Navbar.css';
 
 export const NavAppBar: FC = (props) => {
     return (
@@ -31,7 +32,9 @@ export const NavAppBar: FC = (props) => {
                         </Typography>
                         <Airdrop />
                         <GetBalance />
-                        <div className={styles.alignButtonTopRight}>
+                        <SendTransaction />
+                        <SolPayments />
+                        <div className="align-button-top-right">
                             <Content />
                         </div>
                     </Toolbar>
