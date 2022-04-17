@@ -11,7 +11,7 @@ import { GetBalance } from '../GetBalance/GetBalance';
 import { SolPayments  } from '../MerchantIntegration/main'
 import { SendTransaction } from '../Transaction/transaction'
 import { Content } from '../WalletConnection/WalletConnection';
-import './Navbar.css';
+import styles from './Navbar.module.css';
 
 export const NavAppBar: FC = (props) => {
     return (
@@ -34,7 +34,7 @@ export const NavAppBar: FC = (props) => {
                         <GetBalance />
                         <SendTransaction />
                         <SolPayments />
-                        <div className="align-button-top-right">
+                        <div className={styles.alignButtonTopRight}>
                             <Content />
                         </div>
                     </Toolbar>
