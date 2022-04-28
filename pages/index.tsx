@@ -19,7 +19,7 @@ import githubLogo from '../public/github-logo.svg';
 
 
 
-const HANDLE = ['https://twitter.com/UjjwalG52261234', 'https://github.com/UjjwalGupta49/'];
+const HANDLE = ['https://twitter.com/ujjwalgupta49', 'https://github.com/UjjwalGupta49/'];
 const LOGO = [twitterLogo, githubLogo];
 
 export const App: FC = () => {
